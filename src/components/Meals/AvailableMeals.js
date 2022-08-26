@@ -12,7 +12,8 @@ const AvailableMeals = () => {
     //1- fetch returns a promise because sending http request is an async task
     const fetchMeals = async () => {
       const response = await fetch(
-        "https://react-http-e5163-default-rtdb.firebaseio.com/meals.json"
+        "https://food-eda8d-default-rtdb.firebaseio.com/meals.json"
+        // "https://react-http-e5163-default-rtdb.firebaseio.com/meals.json"
       );
       // try and catch are aychronous tasks, so it returns promises:
       // now if we throw an error inside of a promise that error will cause that promis to reject.

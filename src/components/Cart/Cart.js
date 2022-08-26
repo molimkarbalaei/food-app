@@ -48,7 +48,8 @@ function Cart(props) {
     // 2- both the user data and the cart data:
     //3-  use fetch func and send a request to our firebase
     await fetch(
-      "https://react-http-e5163-default-rtdb.firebaseio.com/orders.json",
+      "https://food-eda8d-default-rtdb.firebaseio.com/orders.json",
+      // "https://react-http-e5163-default-rtdb.firebaseio.com/orders.json",
       {
         // we want to send the data as a json object: as a second argument:
         method: "POST",
